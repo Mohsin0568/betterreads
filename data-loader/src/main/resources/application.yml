@@ -1,4 +1,8 @@
 spring:
+  application:
+    name: betterreads-data-loader
+  main:
+    allow-circular-references: true
   data:
     cassandra:
       keyspace-name: books
@@ -20,3 +24,6 @@ astra.db:
     keyspace: books
     application.token: AstraCS:dkGkGXlauKISokbkIOajjrJZ:e821204940b3efb7f6991cbfafe7b96adf400e817001662bf373e8c7b842b8b2
 
+datadump.location:
+  author: /Users/mohsin/Downloads/authors_dumb.txt
+  works: /Users/mohsin/Downloads/works_dumb.txt

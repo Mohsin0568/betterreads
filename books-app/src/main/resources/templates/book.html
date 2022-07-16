@@ -45,6 +45,54 @@
                  <p class="card-text" th:text="${book.description}">Book description</p>
                  <p class="card-text">Published Date: <small class="text-muted" th:text="${book.publishedDate}">2020-01-01</small></p>
 
+                 <form th:if="${loginId}" th:attr="action=@{/addUserBook}" method="POST">
+                  <input type="hidden"
+                      th:name="${_csrf.parameterName}"
+                      th:value="${_csrf.token}"/>
+
+                  <input type="hidden"
+                      name="bookId"
+                      th:value="${book.id}"/>
+                  
+                      <div class="mb-3">
+                    <label for="startDate" class="form-label">Start Date</label>
+                    <input type="date" class="form-control" id="startDate" 
+                        th:value="${userBooks.startedDate}" name="startDate" placeholder="name@example.com">
+                  </div>
+
+                  <div class="mb-3">
+                    <label for="completedDate" class="form-label">Completed Date</label>
+                    <input type="date" class="form-control" id="completedDate" 
+                      th:value="${userBooks.completionDate}" name="completedDate" placeholder="name@example.com">
+                  </div>
+
+                  <div class="mb-3">
+                    <label for="status" class="form-label">Status</label>
+                    <select id = "readingStatus" name = "readingStatus" class="form-select" 
+                      th:field="${userBooks.readingStatus}" aria-label="Reading Status">
+                      <option selected value = "0">Select</option>
+                      <option value="readig">Reading</option>
+                      <option value="finished">Finished</option>
+                      <option value="notStarted">Not Started</option>
+                    </select>
+                  </div>
+
+                  <div class="mb-3">
+                    <label for="ratings" class="form-label">Rating</label>
+                    <select name = "ratings" id = "ratings" class="form-select" 
+                      th:field="${userBooks.ratings}" aria-label="Select Rating">
+                      <option selected value = "0">Select</option>
+                      <option value="1">&#9733;</option>
+                      <option value="2">&#9733;&#9733;</option>
+                      <option value="3">&#9733;&#9733;&#9733;</option>
+                      <option value="4">&#9733;&#9733;&#9733;&#9733;</option>
+                      <option value="5">&#9733;&#9733;&#9733;&#9733;&#9733;</option>
+                    </select>
+                  </div>
+                  <button type="submit" class="btn btn-primary">Submit</button>
+
+                 </form>
+
                </div>
 
              </div>

@@ -25,4 +25,11 @@ is a web app were user can search book by title or author, view book, can mark b
 | **OAuth** | Github |
 
 
+## Cassandra
 
+**Token Creation**
+
+Go to **Manage Organizations**, then, **Token Management** in [Astra dashboard](https://astra.datastax.com/) and create token. This token will be updated in application.yml for parameters username, password and application.token.
+
+## Github
+Go to **Settings**, then, **Developer settings**, then, **Github apps**, then, create/edit an app, then, create user token in [Github](github.com). This token will be updated in application.yml file for github clientId and clientSecret parameters.

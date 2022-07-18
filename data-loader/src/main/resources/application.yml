@@ -6,8 +6,8 @@ spring:
   data:
     cassandra:
       keyspace-name: books
-      username: dkGkGXlauKISokbkIOajjrJZ
-      password: +Ul.U_ac5vx68nisa79zoXDP5krfNtUDjbZCJRnlP-9y-.ez2FCzPZXH_U3YIjLr,PP1cWv5Kde+xMRAZJ6Df9uJ8mrH6MwmgvFHJetrdeHe2q2h1ItO9MgjCcZ5G6dl
+      username: <userName>
+      password: <password>
       schema-action: create-if-not-exists
       request:
         timeout: 10s

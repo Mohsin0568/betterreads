@@ -1,0 +1,10 @@
+./mvnw spring-boot:run -Dspring-boot.run.arguments=--datadump.location.author=/Users/mohsin/<folder_name>/file1.txt
+./mvnw spring-boot:run -Dspring-boot.run.arguments=--datadump.location.author=/Users/mohsin/<folder_name>/file1.txt
+./mvnw spring-boot:run -Dspring-boot.run.arguments=--datadump.location.author=/Users/mohsin/<folder_name>/file1.txt
+./mvnw spring-boot:run -Dspring-boot.run.arguments=--datadump.location.author=/Users/mohsin/<folder_name>/file1.txt
+./mvnw spring-boot:run -Dspring-boot.run.arguments=--datadump.location.author=/Users/mohsin/<folder_name>/file1.txt
+./mvnw spring-boot:run -Dspring-boot.run.arguments=--datadump.location.author=/Users/mohsin/<folder_name>/file1.txt
+./mvnw spring-boot:run -Dspring-boot.run.arguments=--datadump.location.author=/Users/mohsin/<folder_name>/file1.txt
+./mvnw spring-boot:run -Dspring-boot.run.arguments=--datadump.location.author=/Users/mohsin/<folder_name>/file1.txt
+./mvnw spring-boot:run -Dspring-boot.run.arguments=--datadump.location.author=/Users/mohsin/<folder_name>/file1.txt
+./mvnw spring-boot:run -Dspring-boot.run.arguments=--datadump.location.author=/Users/mohsin/<folder_name>/file1.txt

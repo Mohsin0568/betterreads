@@ -6,8 +6,8 @@ spring:
   data:
     cassandra:
       keyspace-name: books
-      username: dkGkGXlauKISokbkIOajjrJZ
-      password: +Ul.U_ac5vx68nisa79zoXDP5krfNtUDjbZCJRnlP-9y-.ez2FCzPZXH_U3YIjLr,PP1cWv5Kde+xMRAZJ6Df9uJ8mrH6MwmgvFHJetrdeHe2q2h1ItO9MgjCcZ5G6dl
+      username: <userName>
+      password: <password>
       schema-action: create-if-not-exists
       request:
         timeout: 10s
@@ -22,8 +22,8 @@ astra.db:
     id: 3fef05fb-a205-4ec9-a0a0-b5ea79e926ff-1
     region: asia-south1
     keyspace: books
-    application.token: AstraCS:dkGkGXlauKISokbkIOajjrJZ:e821204940b3efb7f6991cbfafe7b96adf400e817001662bf373e8c7b842b8b2
+    application.token: <application token>
 
 datadump.location:
-  author: /Users/mohsin/Downloads/authors_dumb.txt
-  works: /Users/mohsin/Downloads/works_dumb.txt
+  author: /Users/mohsin/<folderName>/authors_dumb.txt
+  works: /Users/mohsin/<folderName>/works_dumb.txt

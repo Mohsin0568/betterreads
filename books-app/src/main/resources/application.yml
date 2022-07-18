@@ -31,3 +31,5 @@ astra.db:
     keyspace: books
     application.token: <token>
  
+#  Go to "Manage Organizations --> Token Management" in Astra dashboard (https://astra.datastax.com) and create token to be updated in username, password and application.token parameter.
+# Go to Settings --> Developer settings --> Github apps --> create/edit an app --> create user token" in Github to be updated in github clientId and clientSecret. 

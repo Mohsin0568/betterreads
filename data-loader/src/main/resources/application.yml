@@ -22,7 +22,7 @@ astra.db:
     id: 3fef05fb-a205-4ec9-a0a0-b5ea79e926ff-1
     region: asia-south1
     keyspace: books
-    application.token: AstraCS:dkGkGXlauKISokbkIOajjrJZ:e821204940b3efb7f6991cbfafe7b96adf400e817001662bf373e8c7b842b8b2
+    application.token: <application token>
 
 datadump.location:
   author: /Users/mohsin/<folderName>/authors_dumb.txt

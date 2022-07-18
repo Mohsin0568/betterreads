@@ -27,3 +27,5 @@ astra.db:
 datadump.location:
   author: /Users/mohsin/<folderName>/authors_dumb.txt
   works: /Users/mohsin/<folderName>/works_dumb.txt
+
+#  Go to "Manage Organizations --> Token Management" in Astra dashboard (https://astra.datastax.com) and create token to be updated in username, password and application.token parameter.
